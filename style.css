@@ -1,0 +1,126 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: #1e1e1e;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.navbar a {
+    color: #2fdd7a;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.navbar a:hover {
+    color: #8c25b9;
+}
+.container {
+    max-width: 800px;
+    margin: 80px auto 50px;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.container2 {
+    max-width: 800px;
+    margin: 80px auto 50px;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+}
+img.profile-pic {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #14a453;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 22px;
+    color: #f64da2;
+}
+h3 {
+    color:rgb(50, 215, 50);
+    font-size: 18px;
+        
+}
+
+p {
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 1.6;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.footer {
+    text-align: center;
+    background: #1e1e1e;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.social-links a {
+    color: #2ce3fb;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.social-links a:hover {
+    color: #d373fb;
+}
+
+a {
+    color: rgb(49, 79, 209);
+}
+
+a:hover {
+    color: rgb(126, 221, 245);
+    text-decoration: underline;
+}
+
+.question-form input, .question-form textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    background: #252525;
+    color: white;
+}
+.question-form button {
+    background-color: #2fdd7a;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.question-form button:hover {
+    background-color: #23b364;
+}
